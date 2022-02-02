@@ -16,17 +16,17 @@ function Footer() {
           <p>Features</p>
           <ul>
             <li>
-                <a href="#">
+                <a href='/'>
                  Link Shortening
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href='/'>
                 Branded Links
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href='/'>
                 Analytics
                 </a>
             </li>
@@ -36,17 +36,17 @@ function Footer() {
           <p>Resources</p>
           <ul>
             <li>
-                <a href="#">
+                <a href='/'>
                 Blog
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href='/'>
                Developers
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href='/'>
                 Support
                 </a>
             </li>
@@ -56,17 +56,17 @@ function Footer() {
           <p>Company</p>
           <ul>
             <li>
-                <a href="#">
+                <a href='/'>
                 About
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href='/'>
                Our Team
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href='/'>
                Careers
                 </a>
             </li>

@@ -17,21 +17,21 @@ function Navbar() {
         <aside>
         <ul>
             <li>
-                <a href='#'>Features</a>
+                <a href="/">Features</a>
             </li>
             <li>
-                <a href='#'>Pricing</a>
+                <a href="/">Pricing</a>
             </li>
             <li>
-                <a href='#'>Resources</a>
+                <a href="/">Resources</a>
             </li>
         </ul>
        <ul>
             <li>
-                <a href='#'>Login</a>
+                <a href="/">Login</a>
             </li>
             <li className='Navbar-signup'>
-                <a href='#'>Sign up</a>
+                <a href="/">Sign up</a>
             </li>
        </ul>
         </aside>
