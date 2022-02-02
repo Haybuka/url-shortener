@@ -1,0 +1,38 @@
+.Action{
+    background-color:hsl(257, 27%, 26%);
+    padding:30px 50px;
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Action button{
+   
+        padding: 15px 40px;
+        border-radius: 30px;
+        border: none;
+        color:#fff;
+        background-color: hsl(180, 66%, 49%);
+        font-weight: bold;
+        display: inline-block;
+        cursor: pointer;
+        text-align:center;
+        margin:15px 0;
+       font-size: 20px;
+}
+.Action h3{
+   font-size: 30px;
+   color:#fff;
+   text-align:center;
+}
+.Action button:hover{
+    background-color: hsl(180, 85%, 61%);
+
+}
+
+@media screen and (max-width:900px){
+    .Action{
+        padding: 50px 30px;
+    }
+ }

@@ -1,0 +1,33 @@
+.CreateList{
+    width: 1000px;
+    /* background-color: red; */
+    transform: translateY(-50px);
+
+}
+
+.CreateList li{
+   background-color: rgb(255, 255, 255);
+   padding: 15px 25px;
+   border-radius: 10px;
+   margin: 10px 0;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.204);
+}
+.CreateList p, .CreateList span{
+   font-size: 14px;
+
+}
+.CreateList button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color:#fff;
+    background-color: hsl(180, 66%, 49%);
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline-block;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.Statistics-div{
+    text-align: center;
+}
+
+.Statistics h3{
+    font-size: 25px;
+}
+.Statistics p{
+    font-size: 20px;
+    color:hsl(257, 7%, 63%);
+    font-size: 16px;
+}

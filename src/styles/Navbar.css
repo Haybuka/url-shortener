@@ -1,0 +1,95 @@
+.Navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.Nav-bars{
+    display: none;
+}
+.Navbar-top p{
+    display: inline-block;
+}
+.Navbar-top aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+.Navbar-top ul{
+  padding: 0;
+  list-style: none;
+}
+.Navbar-top li:nth-child(1){
+    margin-left: 0;
+}
+.Navbar-top .Navbar-signup {
+    margin-right: 0;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: hsl(180, 66%, 49%);
+    font-weight: bold;
+}
+.Navbar-top .Navbar-signup a{
+    color:#fff;
+}
+.Navbar-top .Navbar-signup a:hover{
+    color:#fff;
+}
+.Navbar-top li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.Navbar-top li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
+    font-size: 18px;
+}
+.Navbar-top li a:hover{color: #000;}
+
+.Navbar-home{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .Navbar-top{
+        width: auto;
+    }
+    .Navbar-top aside{
+        width: 80%;
+    }
+ }
+
+ @media screen and (max-width:672px){
+    .Navbar-top{
+        margin: 0 25px;
+        display: block;
+    }
+    .Navbar-top aside{
+        display: none;
+        width: 100%;
+    }
+    .Navbar-top li{
+        display: block;
+        text-align: center;
+        margin: 15px 0;
+    }
+    .Navbar-top p{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .Nav-bars{
+        display: inline-block;
+        font-size: 30px;
+        color: hsl(257, 7%, 63%);
+        cursor: pointer;
+    }
+    .Navbar-top.active aside{
+        display: block;
+    }
+ }

@@ -1,0 +1,54 @@
+.Card-Stat{
+    width: 330px;
+    height: 260px;
+    background-color: #fff;
+    padding: 0px 25px 30px 25px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    /* padding-bottom: 35px; */
+}
+.Card-Stat-img{
+    background-color: hsl(257, 27%, 26%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px,-30px);
+}
+.Card-Stat h4{
+    margin: 15px 0;
+}
+
+.Card-Stat p{
+    color: hsl(257, 7%, 63%);
+    font-size: 16px;
+    /* padding: 10px 0; */
+}
+
+.firstCard{
+    transform: translateY(-20px);
+}
+.secondCard{
+    transform: translateY(20px);
+}
+.thirdCard{
+    transform: translateY(40px);
+}
+
+@media screen and (max-width:1200px){
+    .firstCard,.secondCard.thirdCard{
+        transform: translate(0);
+    }
+    .Card-Stat-img{
+        left: 50%;
+        top: 0%;
+        position: relative;
+        transform: translate(-50%,-40%);
+    }
+    .Card-Stat{
+        margin: 15px 0;
+    }
+}

@@ -1,0 +1,76 @@
+.Hero{
+  margin: 30px 0;
+  padding: 15px 0;
+ 
+}
+.Hero h1{
+    font-size:60px;
+    line-height: 60px;
+    color: hsl(260, 8%, 14%);
+    margin: 30px 0;
+}
+.Hero p{
+    line-height: 30px;
+    font-size: 20px;
+    margin: 20px 0;
+    color: hsl(257, 7%, 63%);
+}
+.Hero button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    color:#fff;
+    background-color: hsl(180, 66%, 49%);
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.Hero img{
+    width:100%;
+}
+@media screen and (max-width:1106px){
+   .Hero{
+       margin: 25px 0;
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+}
+
+@media screen and (max-width:1106px){
+    .Hero{
+        margin: 25px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+ }
+
+ @media screen and (max-width:900px){
+     .Hero .img-div{
+      width: 400px;
+      height: 400px;
+      margin: 10px auto;
+     }
+    .Hero img{
+        width: 100%;
+    }
+    .css-11lq3yg-MuiGrid-root{
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+    }
+    .Hero{
+        text-align: center;
+    }
+    .Hero h1{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .Hero p{
+        line-height: 15px;
+        font-size: 16px;
+    }
+    /* .Hero button{
+        fo
+    } */
+ }

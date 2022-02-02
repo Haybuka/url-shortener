@@ -1,0 +1,78 @@
+.LinkForm{
+    background-color: hsl(257, 27%, 26%);
+    padding: 30px 50px;
+    border-radius: 10px;
+    width: 1000px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 5;
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translateY(-50px);
+}
+.LinkForm .LinkForm-input{
+    background-color: #fff;
+    color: hsl(0, 0%, 75%);
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus{
+    outline: none !important;
+    border: none !important;
+    overflow: hidden;
+}
+.LinkForm button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color:#fff;
+    background-color: hsl(180, 66%, 49%);
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.LinkForm form{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.LinkForm form div:nth-child(1){
+    width: 750px;
+}
+
+.LinkForm label{
+    color: #000;
+}
+
+.LinkForm p{
+    color: hsl(0, 87%, 67%);
+    margin-top: 5px;
+}
+
+@media screen and (max-width:1000px){
+   .LinkForm{
+       width: auto;
+       transform: translate(0);
+       margin: 0 20px;
+       margin-bottom: 20px;
+   }
+   .LinkForm form{
+       flex-direction: column;
+   }
+   .LinkForm button{
+       padding: 15px 20px;
+       display: block;
+       margin: 15px 0;
+
+   }
+   .LinkForm form div:nth-child(1){
+       width: 100%;
+   }
+ }
