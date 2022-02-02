@@ -31,3 +31,11 @@
     display: inline-block;
     cursor: pointer;
 }
+
+@media screen and (max-width:1000px){
+    .CreateList{
+        width: auto;
+        margin: 10px auto;
+    }
+    
+ }
